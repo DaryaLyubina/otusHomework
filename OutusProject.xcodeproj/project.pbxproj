@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4368A74F27F4461D00A98D90 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4368A74E27F4461D00A98D90 /* ModalView.swift */; };
 		43CD9DB327DF345400179691 /* OutusProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD9DB227DF345400179691 /* OutusProjectApp.swift */; };
 		43CD9DB527DF345400179691 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD9DB427DF345400179691 /* ContentView.swift */; };
 		43CD9DB727DF345400179691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CD9DB627DF345400179691 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4368A74E27F4461D00A98D90 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		43CD9DAF27DF345400179691 /* OutusProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutusProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CD9DB227DF345400179691 /* OutusProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutusProjectApp.swift; sourceTree = "<group>"; };
 		43CD9DB427DF345400179691 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				43CD9DC027DF35A000179691 /* DashboardScreen.swift */,
 				43CD9DC227DF35C600179691 /* CatalogScreen.swift */,
 				43CD9DC427DF35D100179691 /* ProfileScreen.swift */,
+				4368A74E27F4461D00A98D90 /* ModalView.swift */,
 			);
 			path = OutusProject;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4368A74F27F4461D00A98D90 /* ModalView.swift in Sources */,
 				43CD9DB527DF345400179691 /* ContentView.swift in Sources */,
 				43CD9DC327DF35C600179691 /* CatalogScreen.swift in Sources */,
 				43CD9DB327DF345400179691 /* OutusProjectApp.swift in Sources */,

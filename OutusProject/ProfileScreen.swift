@@ -13,6 +13,8 @@ final class ProfileViewModel: ObservableObject {
 
 struct ProfileScreen: View {
     @State var isNavigate: Bool = false
+    @State var isShowModal: Bool = false
+    
     @StateObject var viewModel: ProfileViewModel = .init()
     
     var body: some View {
@@ -20,22 +22,16 @@ struct ProfileScreen: View {
             VStack {
                 Text("ProfileScreen")
                 Divider()
-                ProfileInfoView(isNavigate: $isNavigate)
+                
+                Button("I will open a modal window") {
+                    isShowModal = true
+                }
+                
+            }.sheet(isPresented: $isShowModal) {
+                ModalView()
             }
-            .navigationTitle("Profile")
-        }
-    }
-}
-
-struct ProfileInfoView: View {
-    @Binding var isNavigate: Bool
-    
-    var body: some View {
-        ScrollView {
-            NavigationLink("Title") {
-                Text("Destination")
-            }
-        }
+            
+        }.navigationTitle("Profile")
     }
 }
 
