@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4368A74F27F4461D00A98D90 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4368A74E27F4461D00A98D90 /* ModalView.swift */; };
+		439E1DE3280C464F007A14D4 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E1DE2280C464F007A14D4 /* MyCustomView.swift */; };
 		43CD9DB327DF345400179691 /* OutusProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD9DB227DF345400179691 /* OutusProjectApp.swift */; };
 		43CD9DB527DF345400179691 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD9DB427DF345400179691 /* ContentView.swift */; };
 		43CD9DB727DF345400179691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CD9DB627DF345400179691 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		4368A74E27F4461D00A98D90 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		439E1DE2280C464F007A14D4 /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 		43CD9DAF27DF345400179691 /* OutusProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutusProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CD9DB227DF345400179691 /* OutusProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutusProjectApp.swift; sourceTree = "<group>"; };
 		43CD9DB427DF345400179691 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				43CD9DB927DF345400179691 /* Preview Assets.xcassets */,
+				439E1DE2280C464F007A14D4 /* MyCustomView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				4368A74F27F4461D00A98D90 /* ModalView.swift in Sources */,
 				43CD9DB527DF345400179691 /* ContentView.swift in Sources */,
 				43CD9DC327DF35C600179691 /* CatalogScreen.swift in Sources */,
+				439E1DE3280C464F007A14D4 /* MyCustomView.swift in Sources */,
 				43CD9DB327DF345400179691 /* OutusProjectApp.swift in Sources */,
 				43CD9DC127DF35A000179691 /* DashboardScreen.swift in Sources */,
 				43CD9DC527DF35D100179691 /* ProfileScreen.swift in Sources */,
